@@ -1,0 +1,27 @@
+<form method="POST"
+          enctype="multipart/form-data">
+    {% csrf_token %}
+                    <div>
+                        <label class="desc" id="title1">Title of Post</label>
+                        <div>
+                          <input type="text" id="numbers" name="numbers"  spellcheck="true" maxlength="70" style=" width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;"></input>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                          <input type="submit" spellcheck="true" maxlength="70" style=" width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;"></input>
+                        </div>
+                    </div>
+
+</form>
